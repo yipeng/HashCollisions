@@ -1,6 +1,4 @@
 # HashCounting
 
-Here's a piece of code I wrote to understand uuid hash collision probablities in Java. 
-
-Hashed UUIDs are a lot less unique than UUIDs. Think 2^32 vs 2^122.
+Here's a piece of code I wrote to understand uuid hash collision probablities in Java. Because hashcode is an int, uuid to hashcode loses its uniqueness as 2^128 bins becomes 2^32 bins 
 
